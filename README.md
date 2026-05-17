@@ -1,20 +1,11 @@
-# WesterlyJetAxis
-code and data for "WesterlyJetAxis"
+Reproducibility Data and Code Repository for "Human-Induced Westerly Jet Shifts Coordinate Terrestrial Productivity at the Hemispheric Scale"
 
-Overview
+This repository contains the necessary data and Python code used to reproduce the figures presented in the paper:
 
-This Python script calculates and visualizes the latitude of the westerly jet axis based on 200 hPa summer wind speed data. It includes:
+“Human-Induced Westerly Jet Shifts Coordinate Terrestrial Productivity at the Hemispheric Scale” published in Nat Coms.
 
-Morphological smoothing of wind speed data using closing and opening operations.Detection of the westerly jet axis by finding the maximum wind speed along longitudes and limiting abrupt latitude jumps.Remove small-scale disturbances.Visualization of both wind speed and the jet axis .Requirements
+Repository Contents
 
-The following Python packages are required:
+data/ Processed datasets required for figure reproduction.
 
-numpy
-
-xarray
-
-scipy
-
-matplotlib
-
-cartopy
+code/ Python scripts used for data processing, analysis, and visualization.Repository Contents
